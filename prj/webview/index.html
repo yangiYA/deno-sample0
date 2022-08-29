@@ -1,0 +1,22 @@
+<html>
+
+<head>
+    <title>Sample</title>
+    <meta charset="UTF-8">
+    <script>
+        async function refreshCount() {
+            const countText = document.getElementById("countText");
+            // countText.textContent = await nowCount();
+            countText.value = await nowCount();
+        }
+    </script>
+</head>
+
+<body>
+    <h1>Sample index.html</h1>
+    <div><input id="countText" type="text">
+        <button id="count_up" type="button" onclick="countUp();refreshCount()">&nbsp;■ count up&nbsp;</button>
+    </div>
+</body>
+
+</html>

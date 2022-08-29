@@ -1,0 +1,11 @@
+*.log
+*.bak
+*コピー
+*コピー.*
+
+/dist
+/target
+/*.exe
+
+WebView2Loader.dll
+/index.html
